@@ -1,9 +1,15 @@
 module github.com/m01i0ng/go-ws
 
-go 1.13
+go 1.21
+
+toolchain go1.22.1
 
 require (
 	github.com/gorilla/websocket v1.4.2
-	github.com/kataras/golog v0.0.18
-	golang.org/x/sys v0.0.0-20200102141924-c96a22e43c9c // indirect
+	github.com/kataras/golog v0.1.11
+)
+
+require (
+	github.com/kataras/pio v0.0.13 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 )
